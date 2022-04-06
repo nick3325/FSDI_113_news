@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+
+{% block title %}Logged Out{% endblock title%}
+
+{% block content %}
+
+    <h1>Logged Out</h1>
+    <form method="POST">
+    <p>Sorry to see you go. Come back soon!</p>
+    <p>Click <a href="{% url 'home' %}">Here</a>to go to the homepage</p>
+{% endblock content %}
